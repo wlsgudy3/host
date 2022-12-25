@@ -1,47 +1,54 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>쓰라이쓰 - html</title>
+        <title>쓰라이쓰 - homepage</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <h1><a href="index.html">쓰라이쓰<a ></h1>
-        <ol>
-            <li><a href="2.html">기본 정보</a></li>
-            <li><a href="1.html">좋아하는 것</a></li>
-            <li><a href="3.html">싫어하는 것</a></li>
-        </ol>
-
-        <h2><u>좋아하는 것</u></h1>
-            <p>
-                1. 좋아하는 연예인 : <strong>아이유</strong><br>
-                + <a href="https://cafe.daum.net/IU" target="_blank"
-                title="아이유 팬카페 유애나">아이유 팬카페</a>
-            </p>
-        <img src = "iu.jpg" width = "50%">
-        <p style = "margin-top :40px;">
-            2. 좋아하는 음식 : 
-            <table>
-                <tr>
-                    <th>한식</th>
-                    <th>양식</th>
-                    <th>중식</th>
-                </tr>
-                <tr>
-                    <td>김치찌개</td>
-                    <td>피자</td>
-                    <td>짜장면</td>
-                </tr>
-                <tr>
-                    <td>국밥</td>
-                    <td>스테이크</td>
-                    <td>탕수육</td>
-                </tr>
-            </table>
-        </p>
-        <p>
-            3. 좋아하는 취미
-        </p>
+        <h1><a href="index.html">쓰라이쓰의 홈페이지</a></h1>
+        <div id="grid">
+            <div id="navigation">
+                <ol>
+                    <li><a href="2.html">기본 정보</a></li>
+                    <li><a href="1.html">좋아하는 것</a></li>
+                    <li><a href="3.html">싫어하는 것</a></li>
+                </ol>
+            </div>
+            <div id="article">
+                <h2><u>좋아하는 것</u></h1>
+                <h3>1. 좋아하는 연예인 : </h3>
+                <p>
+                    <strong>아이유</strong><br>
+                    + <a href="https://cafe.daum.net/IU" target="_blank"
+                    title="아이유 팬카페 유애나">아이유 팬카페</a>
+                </p>
+                <img src = "iu.jpg" width = "50%">
+                <h3>2. 좋아하는 음식 :</h2>
+                <p style = "margin-top :40px;">
+                    <table>
+                        <tr>
+                            <th>한식</th>
+                            <th>양식</th>
+                            <th>중식</th>
+                        </tr>
+                        <tr>
+                            <td>김치찌개</td>
+                            <td>피자</td>
+                            <td>짜장면</td>
+                        </tr>
+                        <tr>
+                            <td>국밥</td>
+                            <td>스테이크</td>
+                            <td>탕수육</td>
+                        </tr>
+                    </table>
+                </p>
+                <h3>
+                    3. 좋아하는 취미
+                </h3>
+            </div>
+        </div>
     </body>
 </html>
